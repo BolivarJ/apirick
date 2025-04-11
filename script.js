@@ -49,6 +49,8 @@ let getByName = async () => {
     data.map(character => createCards(character));
 }
 
+console.log("Cambio el titulo y la barra de busqueda")
+
 window.addEventListener('DOMContentLoaded', generaCharacter);
 txtCharacter.addEventListener('keyup', getByName);
 

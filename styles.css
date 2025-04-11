@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Fredoka:wght@600&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 a.sociales {
-   color: #faebd7;
+    color: #faebd7;
 }
+
 body {
     width: 100vw;
     height: auto;
@@ -31,10 +33,18 @@ h1.titulo {
     font-family: 'Delicious Handrawn', cursive;
 }
 
+@media (min-width: 300px) and (max-width: 800px) {
+    h1.titulo {
+        font-size: 4rem;
+
+    }
+}
+
+
 @keyframes title {
-    50% { 
-    text-shadow: 0 0 15px #00ffff;
-    color: #ffff00; 
+    50% {
+        text-shadow: 0 0 15px #00ffff;
+        color: #ffff00;
     }
 }
 
@@ -61,6 +71,12 @@ main {
     padding: 1rem;
     color: #ffff;
     font-family: 'Delicious Handrawn', cursive;
+}
+
+@media (min-width: 300px) and (max-width: 787px) {
+    .finder-character {
+        width: 15rem;
+    }
 }
 
 .container-cards {
@@ -129,4 +145,4 @@ footer {
     justify-content: center;
     align-items: center;
     z-index: 10;
-  }
+}
